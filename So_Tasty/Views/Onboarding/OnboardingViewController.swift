@@ -37,6 +37,7 @@ class OnboardingViewController: UIViewController {
                   OnboardingSlide(title: "World-Class Chefs", description: "Ouer dishes are prepared by only the best.", image: UIImage(imageLiteralResourceName: "slide1")),
                   OnboardingSlide(title: "Instant World-Wide Delivery" , description: "Your orders will be delivered instantly irrespective of your location aronund the world.", image:UIImage(imageLiteralResourceName: "slide3"))
         ]
+        pageControl.numberOfPages = slides.count
 
         collectionView.delegate = self
         collectionView.dataSource = self

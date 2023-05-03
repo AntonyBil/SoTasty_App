@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15489BEA2A02078900AE1031 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15489BE92A02078900AE1031 /* HomeViewController.swift */; };
 		15AA62632A0044D70016F2E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AA62622A0044D70016F2E8 /* AppDelegate.swift */; };
 		15AA62652A0044D70016F2E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AA62642A0044D70016F2E8 /* SceneDelegate.swift */; };
 		15AA626A2A0044D70016F2E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15AA62682A0044D70016F2E8 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15489BE92A02078900AE1031 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		15AA625F2A0044D70016F2E8 /* So_Tasty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = So_Tasty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15AA62622A0044D70016F2E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15AA62642A0044D70016F2E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15489BE82A02075F00AE1031 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				15489BE92A02078900AE1031 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		15AA62562A0044D70016F2E8 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +89,7 @@
 		15AA62762A015EC20016F2E8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				15489BE82A02075F00AE1031 /* Home */,
 				15AA62792A015EFD0016F2E8 /* Onboarding */,
 			);
 			path = Views;
@@ -192,6 +203,7 @@
 				15AA62652A0044D70016F2E8 /* SceneDelegate.swift in Sources */,
 				15AA627E2A01666F0016F2E8 /* UIView+Extension.swift in Sources */,
 				15AA627B2A015F360016F2E8 /* OnboardingViewController.swift in Sources */,
+				15489BEA2A02078900AE1031 /* HomeViewController.swift in Sources */,
 				15AA62822A017BF50016F2E8 /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
