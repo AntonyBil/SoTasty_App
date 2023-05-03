@@ -10,7 +10,8 @@
 		15489BEA2A02078900AE1031 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15489BE92A02078900AE1031 /* HomeViewController.swift */; };
 		15489BEE2A02105400AE1031 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15489BEC2A02105400AE1031 /* CategoryCollectionViewCell.swift */; };
 		15489BEF2A02105400AE1031 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15489BED2A02105400AE1031 /* CategoryCollectionViewCell.xib */; };
-		15489BF12A02178D00AE1031 /* Dishcategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15489BF02A02178D00AE1031 /* Dishcategory.swift */; };
+		15489BF12A02178D00AE1031 /* DishСategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15489BF02A02178D00AE1031 /* DishСategory.swift */; };
+		15489BF32A0263E900AE1031 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15489BF22A0263E900AE1031 /* String+Extension.swift */; };
 		15AA62632A0044D70016F2E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AA62622A0044D70016F2E8 /* AppDelegate.swift */; };
 		15AA62652A0044D70016F2E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AA62642A0044D70016F2E8 /* SceneDelegate.swift */; };
 		15AA626A2A0044D70016F2E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15AA62682A0044D70016F2E8 /* Main.storyboard */; };
@@ -20,13 +21,15 @@
 		15AA627E2A01666F0016F2E8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AA627D2A01666F0016F2E8 /* UIView+Extension.swift */; };
 		15AA62802A0168E70016F2E8 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AA627F2A0168E70016F2E8 /* OnboardingSlide.swift */; };
 		15AA62822A017BF50016F2E8 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AA62812A017BF50016F2E8 /* OnboardingCollectionViewCell.swift */; };
+		7D834E507D9E802EECF10DB7 /* Pods_So_Tasty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2B2987D47FB7CA0EE7155 /* Pods_So_Tasty.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15489BE92A02078900AE1031 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		15489BEC2A02105400AE1031 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		15489BED2A02105400AE1031 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
-		15489BF02A02178D00AE1031 /* Dishcategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dishcategory.swift; sourceTree = "<group>"; };
+		15489BF02A02178D00AE1031 /* DishСategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DishСategory.swift"; sourceTree = "<group>"; };
+		15489BF22A0263E900AE1031 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		15AA625F2A0044D70016F2E8 /* So_Tasty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = So_Tasty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15AA62622A0044D70016F2E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15AA62642A0044D70016F2E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +41,9 @@
 		15AA627D2A01666F0016F2E8 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		15AA627F2A0168E70016F2E8 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		15AA62812A017BF50016F2E8 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D0B7BA8FA92EBDA3F556D04 /* Pods-So_Tasty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-So_Tasty.debug.xcconfig"; path = "Target Support Files/Pods-So_Tasty/Pods-So_Tasty.debug.xcconfig"; sourceTree = "<group>"; };
+		D1473819A014158C2FA89545 /* Pods-So_Tasty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-So_Tasty.release.xcconfig"; path = "Target Support Files/Pods-So_Tasty/Pods-So_Tasty.release.xcconfig"; sourceTree = "<group>"; };
+		D5A2B2987D47FB7CA0EE7155 /* Pods_So_Tasty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_So_Tasty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D834E507D9E802EECF10DB7 /* Pods_So_Tasty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +80,8 @@
 			children = (
 				15AA62612A0044D70016F2E8 /* So_Tasty */,
 				15AA62602A0044D70016F2E8 /* Products */,
+				262886DBD876064EF8C60689 /* Pods */,
+				B30FEA3AFB4085CE49518D14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,7 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				15AA627F2A0168E70016F2E8 /* OnboardingSlide.swift */,
-				15489BF02A02178D00AE1031 /* Dishcategory.swift */,
+				15489BF02A02178D00AE1031 /* DishСategory.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -140,8 +149,26 @@
 			isa = PBXGroup;
 			children = (
 				15AA627D2A01666F0016F2E8 /* UIView+Extension.swift */,
+				15489BF22A0263E900AE1031 /* String+Extension.swift */,
 			);
 			path = Extansions;
+			sourceTree = "<group>";
+		};
+		262886DBD876064EF8C60689 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D0B7BA8FA92EBDA3F556D04 /* Pods-So_Tasty.debug.xcconfig */,
+				D1473819A014158C2FA89545 /* Pods-So_Tasty.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B30FEA3AFB4085CE49518D14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5A2B2987D47FB7CA0EE7155 /* Pods_So_Tasty.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15AA62732A0044D90016F2E8 /* Build configuration list for PBXNativeTarget "So_Tasty" */;
 			buildPhases = (
+				5F7B5D467DE13A777AF136CD /* [CP] Check Pods Manifest.lock */,
 				15AA625B2A0044D70016F2E8 /* Sources */,
 				15AA625C2A0044D70016F2E8 /* Frameworks */,
 				15AA625D2A0044D70016F2E8 /* Resources */,
+				3C1624FD13A7DFC4C150FA50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,6 +240,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C1624FD13A7DFC4C150FA50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-So_Tasty/Pods-So_Tasty-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-So_Tasty/Pods-So_Tasty-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-So_Tasty/Pods-So_Tasty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F7B5D467DE13A777AF136CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-So_Tasty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		15AA625B2A0044D70016F2E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -223,7 +294,8 @@
 				15AA627E2A01666F0016F2E8 /* UIView+Extension.swift in Sources */,
 				15AA627B2A015F360016F2E8 /* OnboardingViewController.swift in Sources */,
 				15489BEA2A02078900AE1031 /* HomeViewController.swift in Sources */,
-				15489BF12A02178D00AE1031 /* Dishcategory.swift in Sources */,
+				15489BF12A02178D00AE1031 /* DishСategory.swift in Sources */,
+				15489BF32A0263E900AE1031 /* String+Extension.swift in Sources */,
 				15AA62822A017BF50016F2E8 /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +438,7 @@
 		};
 		15AA62742A0044D90016F2E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D0B7BA8FA92EBDA3F556D04 /* Pods-So_Tasty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -394,6 +467,7 @@
 		};
 		15AA62752A0044D90016F2E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1473819A014158C2FA89545 /* Pods-So_Tasty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

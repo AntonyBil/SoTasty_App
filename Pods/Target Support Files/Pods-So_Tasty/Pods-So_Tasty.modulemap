@@ -1,0 +1,6 @@
+framework module Pods_So_Tasty {
+  umbrella header "Pods-So_Tasty-umbrella.h"
+
+  export *
+  module * { export * }
+}
