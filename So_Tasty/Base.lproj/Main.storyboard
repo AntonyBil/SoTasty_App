@@ -257,6 +257,10 @@
                                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                         </collectionViewFlowLayout>
                                                         <cells/>
+                                                        <connections>
+                                                            <outlet property="dataSource" destination="4Py-aU-eqM" id="uuA-J6-qq3"/>
+                                                            <outlet property="delegate" destination="4Py-aU-eqM" id="yek-4U-bhv"/>
+                                                        </connections>
                                                     </collectionView>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -301,6 +305,7 @@
                     <connections>
                         <outlet property="categoryCollectionView" destination="syU-Na-ZwN" id="pII-tu-KgU"/>
                         <outlet property="popularCollectionView" destination="9Em-gw-4Fs" id="EMq-av-SDX"/>
+                        <outlet property="specialsCollectionView" destination="HZM-uC-W0W" id="8yq-12-7z6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zcX-KK-KWb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
