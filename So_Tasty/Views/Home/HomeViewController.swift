@@ -22,9 +22,9 @@ class HomeViewController: UIViewController {
     ]
     
     var populars: [Dish] = [
-        .init(id: "id1", name: "Garri", description: "This is the best i have ever tasted", image: "https://picsum.photos/100/200", calories: 55.895),
-        .init(id: "id1", name: "Indomie", description: "This is the best i have ever tasted", image: "https://picsum.photos/100/200", calories: 220.895),
-        .init(id: "id1", name: "Pizza", description: "This is the best i have ever tasted", image: "https://picsum.photos/100/200", calories: 1240.895)
+        .init(id: "id1", name: "Garri", description: "This is the best i have ever tasted", image: "https://picsum.photos/100/200", calories: 55),
+        .init(id: "id1", name: "Indomie", description: "This is the best i have ever tasted", image: "https://picsum.photos/100/200", calories: 220),
+        .init(id: "id1", name: "Pizza", description: "This is the best i have ever tasted", image: "https://picsum.photos/100/200", calories: 1240)
     ]
     
     override func viewDidLoad() {
@@ -79,9 +79,6 @@ extension HomeViewController: UICollectionViewDelegate,
             return UICollectionViewCell()
         }
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CategoryCollectionViewCell.identifire, for: indexPath) as! CategoryCollectionViewCell
-        cell.setup(category: categories[indexPath.row])
-        return cell
     }
     
     
