@@ -15,6 +15,7 @@
 		15489BF62A02BA1000AE1031 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15489BF52A02BA1000AE1031 /* CardView.swift */; };
 		1552F5AA2A042A200004B5A7 /* DishLandscapeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1552F5A82A042A200004B5A7 /* DishLandscapeCollectionViewCell.swift */; };
 		1552F5AB2A042A200004B5A7 /* DishLandscapeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1552F5A92A042A200004B5A7 /* DishLandscapeCollectionViewCell.xib */; };
+		1552F5AE2A04B0EA0004B5A7 /* DishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1552F5AD2A04B0EA0004B5A7 /* DishDetailViewController.swift */; };
 		15AA62632A0044D70016F2E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AA62622A0044D70016F2E8 /* AppDelegate.swift */; };
 		15AA62652A0044D70016F2E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AA62642A0044D70016F2E8 /* SceneDelegate.swift */; };
 		15AA626A2A0044D70016F2E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15AA62682A0044D70016F2E8 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		15489BF52A02BA1000AE1031 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		1552F5A82A042A200004B5A7 /* DishLandscapeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLandscapeCollectionViewCell.swift; sourceTree = "<group>"; };
 		1552F5A92A042A200004B5A7 /* DishLandscapeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishLandscapeCollectionViewCell.xib; sourceTree = "<group>"; };
+		1552F5AD2A04B0EA0004B5A7 /* DishDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailViewController.swift; sourceTree = "<group>"; };
 		15AA625F2A0044D70016F2E8 /* So_Tasty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = So_Tasty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15AA62622A0044D70016F2E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15AA62642A0044D70016F2E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,14 @@
 			path = DishLandscapeCollectionViewCell;
 			sourceTree = "<group>";
 		};
+		1552F5AC2A04B0620004B5A7 /* DishDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1552F5AD2A04B0EA0004B5A7 /* DishDetailViewController.swift */,
+			);
+			path = DishDetail;
+			sourceTree = "<group>";
+		};
 		15AA62562A0044D70016F2E8 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +152,7 @@
 		15AA62762A015EC20016F2E8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1552F5AC2A04B0620004B5A7 /* DishDetail */,
 				15489BE82A02075F00AE1031 /* Home */,
 				15AA62792A015EFD0016F2E8 /* Onboarding */,
 			);
@@ -337,6 +348,7 @@
 				15AA62652A0044D70016F2E8 /* SceneDelegate.swift in Sources */,
 				15AA627E2A01666F0016F2E8 /* UIView+Extension.swift in Sources */,
 				15AA627B2A015F360016F2E8 /* OnboardingViewController.swift in Sources */,
+				1552F5AE2A04B0EA0004B5A7 /* DishDetailViewController.swift in Sources */,
 				15489BEA2A02078900AE1031 /* HomeViewController.swift in Sources */,
 				15489BF12A02178D00AE1031 /* DishСategory.swift in Sources */,
 				1552F5AA2A042A200004B5A7 /* DishLandscapeCollectionViewCell.swift in Sources */,
