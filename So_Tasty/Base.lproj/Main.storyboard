@@ -298,8 +298,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="So Tasty" id="fad-28-I4I">
+                        <barButtonItem key="backBarButtonItem" title=" " id="B3c-9W-3rX"/>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="cart.circle.fill" catalog="system" id="KX4-0o-fOG">
                             <color key="tintColor" red="0.72496306899999996" green="0.11351726199999999" blue="0.097813762720000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="8x9-7Q-5SR" kind="show" id="33j-Ro-Tws"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -465,6 +469,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wUF-Pq-wAM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1048" y="-27"/>
+        </scene>
+        <!-- -->
+        <scene sceneID="78X-wS-fu0">
+            <objects>
+                <viewController storyboardIdentifier="ListOrdersViewController" id="8x9-7Q-5SR" customClass="ListOrdersViewController" customModule="So_Tasty" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dpO-mZ-TVV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="EUy-t6-Rmq">
+                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="8x9-7Q-5SR" id="AzJ-eO-0Ia"/>
+                                    <outlet property="delegate" destination="8x9-7Q-5SR" id="nf7-bF-Xx8"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ysI-0X-N26"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="EUy-t6-Rmq" secondAttribute="bottom" id="39B-RP-T25"/>
+                            <constraint firstItem="EUy-t6-Rmq" firstAttribute="trailing" secondItem="ysI-0X-N26" secondAttribute="trailing" id="Lr7-gj-x5I"/>
+                            <constraint firstItem="EUy-t6-Rmq" firstAttribute="leading" secondItem="ysI-0X-N26" secondAttribute="leading" id="Qcb-vv-zij"/>
+                            <constraint firstItem="EUy-t6-Rmq" firstAttribute="top" secondItem="ysI-0X-N26" secondAttribute="top" id="yiX-Jk-SR4"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title=" " id="bC1-nz-UeZ">
+                        <barButtonItem key="backBarButtonItem" title=" " id="hL4-R2-tWg"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="EUy-t6-Rmq" id="eQn-9h-Kmk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q6T-eX-kJh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1890.8396946564885" y="672.53521126760563"/>
         </scene>
     </scenes>
     <resources>

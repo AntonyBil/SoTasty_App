@@ -10,6 +10,8 @@
 		1514917B2A07EA3500782D84 /* DishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151491792A07EA3500782D84 /* DishListTableViewCell.swift */; };
 		1514917C2A07EA3500782D84 /* DishListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1514917A2A07EA3500782D84 /* DishListTableViewCell.xib */; };
 		1514917F2A07F0D000782D84 /* ListDishesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514917E2A07F0D000782D84 /* ListDishesViewController.swift */; };
+		151491822A094C1600782D84 /* ListOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151491812A094C1600782D84 /* ListOrdersViewController.swift */; };
+		151491842A094EF400782D84 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151491832A094EF400782D84 /* Order.swift */; };
 		15489BEA2A02078900AE1031 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15489BE92A02078900AE1031 /* HomeViewController.swift */; };
 		15489BEE2A02105400AE1031 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15489BEC2A02105400AE1031 /* CategoryCollectionViewCell.swift */; };
 		15489BEF2A02105400AE1031 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15489BED2A02105400AE1031 /* CategoryCollectionViewCell.xib */; };
@@ -39,6 +41,8 @@
 		151491792A07EA3500782D84 /* DishListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishListTableViewCell.swift; sourceTree = "<group>"; };
 		1514917A2A07EA3500782D84 /* DishListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishListTableViewCell.xib; sourceTree = "<group>"; };
 		1514917E2A07F0D000782D84 /* ListDishesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDishesViewController.swift; sourceTree = "<group>"; };
+		151491812A094C1600782D84 /* ListOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersViewController.swift; sourceTree = "<group>"; };
+		151491832A094EF400782D84 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		15489BE92A02078900AE1031 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		15489BEC2A02105400AE1031 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		15489BED2A02105400AE1031 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -95,6 +99,14 @@
 				1514917E2A07F0D000782D84 /* ListDishesViewController.swift */,
 			);
 			path = ListDishes;
+			sourceTree = "<group>";
+		};
+		151491802A094B9400782D84 /* ListOrders */ = {
+			isa = PBXGroup;
+			children = (
+				151491812A094C1600782D84 /* ListOrdersViewController.swift */,
+			);
+			path = ListOrders;
 			sourceTree = "<group>";
 		};
 		15489BE82A02075F00AE1031 /* Home */ = {
@@ -177,6 +189,7 @@
 		15AA62762A015EC20016F2E8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				151491802A094B9400782D84 /* ListOrders */,
 				1514917D2A07F09500782D84 /* ListDishes */,
 				1552F5AC2A04B0620004B5A7 /* DishDetail */,
 				15489BE82A02075F00AE1031 /* Home */,
@@ -191,6 +204,7 @@
 				15AA627F2A0168E70016F2E8 /* OnboardingSlide.swift */,
 				15489BF02A02178D00AE1031 /* DishСategory.swift */,
 				15C006A62A03F6F8003C4571 /* Dish.swift */,
+				151491832A094EF400782D84 /* Order.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -372,6 +386,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1514917B2A07EA3500782D84 /* DishListTableViewCell.swift in Sources */,
+				151491822A094C1600782D84 /* ListOrdersViewController.swift in Sources */,
+				151491842A094EF400782D84 /* Order.swift in Sources */,
 				1552F5B02A04B5060004B5A7 /* UIViewController+Extension.swift in Sources */,
 				15489BEE2A02105400AE1031 /* CategoryCollectionViewCell.swift in Sources */,
 				15AA62802A0168E70016F2E8 /* OnboardingSlide.swift in Sources */,
