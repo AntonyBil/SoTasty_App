@@ -34,6 +34,8 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        NetworkManager.shared.myFirstRequest()
+        
         categoryCollectionView.delegate = self
         categoryCollectionView.dataSource = self
         
