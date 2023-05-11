@@ -9,6 +9,13 @@ import Foundation
 
 struct DishCategory: Decodable {
     let id: String
-    let name: String?
+    let title: String?
     let image: String?
+    
+    /*variant to change name for decoding json
+    enum CodingKeys: String, CodingKey {
+        case id
+        case name = "title"
+        case immage
+    } */
 }

@@ -22,7 +22,7 @@ class ListDishesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = category.name
+        title = category.title
         registerCells()
 
     }
