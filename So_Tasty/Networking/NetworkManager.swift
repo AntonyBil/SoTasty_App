@@ -13,7 +13,7 @@ struct NetworkManager {
     private init() {}
     
     func fetchAllCategories(completion: @escaping(Result<AllDishes, Error>) -> Void) {
-        request(route: .featchAllCategories, method: .get, completion: completion)
+        request(route: .fetchAllCategories, method: .get, completion: completion)
     }
     
     private func request<T: Decodable>(route: Route,
@@ -29,21 +29,21 @@ struct NetworkManager {
             var result: Result<Data, Error>?
             if let data = data {
                 result = .success(data)
-                let responseString = String(data: data, encoding: .utf8) ?? "Could not stringify oure data"
-//                print("The response is:\n\(responseString)")
+                let responseString = String(data: data, encoding: .utf8) ?? "Could not stringify our data"
+                print("The response is:\n\(responseString)")
             } else if let error = error {
                 result = .failure(error)
                 print("The error is: \(error.localizedDescription)")
             }
             
             DispatchQueue.main.async {
-                //decode our result and send back to the user
                 self.handleResponse(result: result, completion: completion)
             }
         }.resume()
     }
     
-    private func handleResponse<T: Decodable>(result: Result<Data,Error>?, completion: (Result<T, Error>) -> Void) {
+    private func handleResponse<T: Decodable>(result: Result<Data, Error>?,
+                                              completion: (Result<T, Error>) -> Void) {
         guard let result = result else {
             completion(.failure(AppError.unknownError))
             return

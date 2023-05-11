@@ -18,6 +18,7 @@
 		1514918D2A09F75B00782D84 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514918C2A09F75B00782D84 /* AppError.swift */; };
 		1514918F2A0C169400782D84 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514918E2A0C169400782D84 /* ApiResponse.swift */; };
 		151491912A0C971300782D84 /* AllDishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151491902A0C971300782D84 /* AllDishes.swift */; };
+		151491932A0CA30200782D84 /* Tresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151491922A0CA30200782D84 /* Tresh.swift */; };
 		15489BEA2A02078900AE1031 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15489BE92A02078900AE1031 /* HomeViewController.swift */; };
 		15489BEE2A02105400AE1031 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15489BEC2A02105400AE1031 /* CategoryCollectionViewCell.swift */; };
 		15489BEF2A02105400AE1031 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15489BED2A02105400AE1031 /* CategoryCollectionViewCell.xib */; };
@@ -55,6 +56,7 @@
 		1514918C2A09F75B00782D84 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		1514918E2A0C169400782D84 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
 		151491902A0C971300782D84 /* AllDishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDishes.swift; sourceTree = "<group>"; };
+		151491922A0CA30200782D84 /* Tresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tresh.swift; sourceTree = "<group>"; };
 		15489BE92A02078900AE1031 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		15489BEC2A02105400AE1031 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		15489BED2A02105400AE1031 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				15AA626B2A0044D90016F2E8 /* Assets.xcassets */,
 				15AA626D2A0044D90016F2E8 /* LaunchScreen.storyboard */,
 				15AA62702A0044D90016F2E8 /* Info.plist */,
+				151491922A0CA30200782D84 /* Tresh.swift */,
 			);
 			path = So_Tasty;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 				151491892A0965CB00782D84 /* Route.swift in Sources */,
 				15489BF12A02178D00AE1031 /* DishСategory.swift in Sources */,
 				1552F5AA2A042A200004B5A7 /* DishLandscapeCollectionViewCell.swift in Sources */,
+				151491932A0CA30200782D84 /* Tresh.swift in Sources */,
 				15489BF32A0263E900AE1031 /* String+Extension.swift in Sources */,
 				15489BF62A02BA1000AE1031 /* CardView.swift in Sources */,
 				1514917F2A07F0D000782D84 /* ListDishesViewController.swift in Sources */,
