@@ -30,25 +30,25 @@ class HomeViewController: UIViewController {
     var specials: [Dish] = [
         .init(id: "id1", name: "Plantain", description: "This is my favourit dish.", image: "https://picsum.photos/100/200", calories: 220),
         .init(id: "id1", name: "Beans and Garri", description: "This is the best i have ever tasted", image: "https://picsum.photos/100/200", calories: 1240)
+        
     ]
     override func viewDidLoad() {
         super.viewDidLoad()
+     
+        categoryCollectionView.delegate = self
+        categoryCollectionView.dataSource = self
         
-        NetworkManager.shared.myFirstRequest { (result) in
+        registerCells()
+        
+        NetworkManager.shared.fetchAllCategories {[weak self] (result) in
             switch result {
-            case .success(let data):
-                for dish in data {
-                    print(dish.name ?? "")
-                }
+            case .success(let allDishes):
+                print("It was successful")
             case .failure(let error):
                 print("The error is: \(error.localizedDescription)")
             }
         }
         
-        categoryCollectionView.delegate = self
-        categoryCollectionView.dataSource = self
-        
-        registerCells()
 
     }
     

@@ -12,8 +12,8 @@ struct NetworkManager {
     static let shared = NetworkManager()
     private init() {}
     
-    func myFirstRequest(completion: @escaping(Result<[Dish], Error>) -> Void) {
-        request(route: .temp, method: .get, completion: completion)
+    func fetchAllCategories(completion: @escaping(Result<AllDishes, Error>) -> Void) {
+        request(route: .featchAllCategories, method: .get, completion: completion)
     }
     
     private func request<T: Decodable>(route: Route,

@@ -17,6 +17,7 @@
 		1514918B2A0967B800782D84 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514918A2A0967B800782D84 /* Method.swift */; };
 		1514918D2A09F75B00782D84 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514918C2A09F75B00782D84 /* AppError.swift */; };
 		1514918F2A0C169400782D84 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514918E2A0C169400782D84 /* ApiResponse.swift */; };
+		151491912A0C971300782D84 /* AllDishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151491902A0C971300782D84 /* AllDishes.swift */; };
 		15489BEA2A02078900AE1031 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15489BE92A02078900AE1031 /* HomeViewController.swift */; };
 		15489BEE2A02105400AE1031 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15489BEC2A02105400AE1031 /* CategoryCollectionViewCell.swift */; };
 		15489BEF2A02105400AE1031 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15489BED2A02105400AE1031 /* CategoryCollectionViewCell.xib */; };
@@ -53,6 +54,7 @@
 		1514918A2A0967B800782D84 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
 		1514918C2A09F75B00782D84 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		1514918E2A0C169400782D84 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		151491902A0C971300782D84 /* AllDishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDishes.swift; sourceTree = "<group>"; };
 		15489BE92A02078900AE1031 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		15489BEC2A02105400AE1031 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		15489BED2A02105400AE1031 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 				15489BF02A02178D00AE1031 /* DishСategory.swift */,
 				15C006A62A03F6F8003C4571 /* Dish.swift */,
 				151491832A094EF400782D84 /* Order.swift */,
+				151491902A0C971300782D84 /* AllDishes.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 				1552F5B02A04B5060004B5A7 /* UIViewController+Extension.swift in Sources */,
 				15489BEE2A02105400AE1031 /* CategoryCollectionViewCell.swift in Sources */,
 				15AA62802A0168E70016F2E8 /* OnboardingSlide.swift in Sources */,
+				151491912A0C971300782D84 /* AllDishes.swift in Sources */,
 				15AA62632A0044D70016F2E8 /* AppDelegate.swift in Sources */,
 				1514918B2A0967B800782D84 /* Method.swift in Sources */,
 				15AA62652A0044D70016F2E8 /* SceneDelegate.swift in Sources */,
