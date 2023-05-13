@@ -32,5 +32,12 @@ var specials: [Dish] = [
      .init(id: "id1", name: "Pizza", description: "This is the best i have ever tasted", image: "https://picsum.photos/100/200", calories: 1240)
  ]
  
- 
+ var orders: [Order] = [
+     .init(id: "id", name: "Antony Bil", dish: .init(id: "id1", name: "Garri", description: "This is the best i have ever tasted", image: "https://picsum.photos/100/200", calories: 55)),
+     .init(id: "id", name: "Vita Bil", dish: .init(id: "id1", name: "Burger", description: "This is the best i have ever tasted", image: "https://picsum.photos/100/200", calories: 55)),
+     .init(id: "id", name: "Oxy Bil", dish: .init(id: "id1", name: "Pizza", description: "This is the best i have ever tasted", image: "https://picsum.photos/100/200", calories: 55)),
+     .init(id: "id", name: "Nicole Bil", dish: .init(id: "id1", name: "Sushi", description: "This is the best i have ever tasted", image: "https://picsum.photos/100/200", calories: 55)),
+     .init(id: "id", name: "Jim Bil", dish: .init(id: "id1", name: "Spring salads", description: "This is the best i have ever tasted", image: "https://picsum.photos/100/200", calories: 55)),
+     
+ ]
 */
