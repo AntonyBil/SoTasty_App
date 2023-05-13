@@ -50,6 +50,7 @@ class OnboardingViewController: UIViewController {
             let controller = storyboard?.instantiateViewController(withIdentifier: "homeNC") as! UINavigationController
             controller.modalPresentationStyle = .fullScreen     //change presentation style
             controller.modalTransitionStyle = .partialCurl      //change animation
+            UserDefaults.standard.hasOnboarded = true
             present(controller, animated: true)
         } else {
             currentPage += 1

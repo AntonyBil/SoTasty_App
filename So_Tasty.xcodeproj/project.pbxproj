@@ -41,6 +41,7 @@
 		15C006A42A03F067003C4571 /* DishPortreitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C006A22A03F067003C4571 /* DishPortreitCollectionViewCell.swift */; };
 		15C006A52A03F067003C4571 /* DishPortreitCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C006A32A03F067003C4571 /* DishPortreitCollectionViewCell.xib */; };
 		15C006A72A03F6F8003C4571 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C006A62A03F6F8003C4571 /* Dish.swift */; };
+		15D0FAD92A0FBA4A0072DFCA /* UserDefaults+Extansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D0FAD82A0FBA4A0072DFCA /* UserDefaults+Extansion.swift */; };
 		7D834E507D9E802EECF10DB7 /* Pods_So_Tasty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A2B2987D47FB7CA0EE7155 /* Pods_So_Tasty.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 		15C006A22A03F067003C4571 /* DishPortreitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPortreitCollectionViewCell.swift; sourceTree = "<group>"; };
 		15C006A32A03F067003C4571 /* DishPortreitCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishPortreitCollectionViewCell.xib; sourceTree = "<group>"; };
 		15C006A62A03F6F8003C4571 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		15D0FAD82A0FBA4A0072DFCA /* UserDefaults+Extansion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extansion.swift"; sourceTree = "<group>"; };
 		3D0B7BA8FA92EBDA3F556D04 /* Pods-So_Tasty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-So_Tasty.debug.xcconfig"; path = "Target Support Files/Pods-So_Tasty/Pods-So_Tasty.debug.xcconfig"; sourceTree = "<group>"; };
 		D1473819A014158C2FA89545 /* Pods-So_Tasty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-So_Tasty.release.xcconfig"; path = "Target Support Files/Pods-So_Tasty/Pods-So_Tasty.release.xcconfig"; sourceTree = "<group>"; };
 		D5A2B2987D47FB7CA0EE7155 /* Pods_So_Tasty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_So_Tasty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -265,6 +267,7 @@
 				15AA627D2A01666F0016F2E8 /* UIView+Extension.swift */,
 				15489BF22A0263E900AE1031 /* String+Extension.swift */,
 				1552F5AF2A04B5060004B5A7 /* UIViewController+Extension.swift */,
+				15D0FAD82A0FBA4A0072DFCA /* UserDefaults+Extansion.swift */,
 			);
 			path = Extansions;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				151491912A0C971300782D84 /* AllDishes.swift in Sources */,
 				15AA62632A0044D70016F2E8 /* AppDelegate.swift in Sources */,
 				1514918B2A0967B800782D84 /* Method.swift in Sources */,
+				15D0FAD92A0FBA4A0072DFCA /* UserDefaults+Extansion.swift in Sources */,
 				15AA62652A0044D70016F2E8 /* SceneDelegate.swift in Sources */,
 				15AA627E2A01666F0016F2E8 /* UIView+Extension.swift in Sources */,
 				15AA627B2A015F360016F2E8 /* OnboardingViewController.swift in Sources */,
@@ -592,7 +596,6 @@
 				INFOPLIST_FILE = So_Tasty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -621,7 +624,6 @@
 				INFOPLIST_FILE = So_Tasty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
